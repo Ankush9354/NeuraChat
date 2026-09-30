@@ -1,4 +1,7 @@
 import axios from "axios";
+
+axios.defaults.baseURL = "https://neura-chat-sv3d.vercel.app/api/v1";
+axios.defaults.withCredentials = true;
 export const loginUser = async (email: string, password: string) => {
   const res = await axios.post("/user/login", { email, password });
   if (res.status !== 200) {
