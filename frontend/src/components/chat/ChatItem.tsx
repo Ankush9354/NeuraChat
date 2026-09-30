@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Box, Typography } from "@mui/material";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
